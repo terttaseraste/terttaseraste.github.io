@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	
+	background: #BDBDBD;
+	
+
+	
+}
+
+.carousel {
+	margin-top: 10px;
+}
+.carousel-item > img {
+	max-width: 100%;
+	margin: auto;
+	display:block;
+
+	
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon > a:link, a:focus, a:visited, a:active{
+	filter: invert(100%);
+	color: white;
+	
+}
+.mokki a:link, a:visited, a:focus{
+	
+	color: #C9905D;
+	
+
+}
+.loota {
+	background: #B4B4B4;
+	margin-top: 10px;
+	padding: 10px;
+	border-bottom: solid #76777A;
+	border-left: solid #76777A;
+}
+
+
+
+a:link, a:visited, a:focus {
+	font-weight:bold;
+	color: #C9905D;
+	
+}
+a:hover {
+	font-weight:bold;
+	color: #B49982;
+	
+}
+.box img {
+	width: 80%;
+	margin-left: 10%;
+
+	
+}
+
+.col-md-6, .col-md-12 img {
+	margin-top: 10px;
+	display:block;
+	
+}
+.news {
+	background: #798F67;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	padding: 15px;
+	border-bottom: solid 2px #6A6A6A;
+}
+.box {
+	margin-top: 10px;
+	color: #FFFFFF;
+	background: #3C4B5B;
+	background-image: url("puutausta.jpg");
+	text-align: center;
+	padding: 15px;
+	height: 180px;
+
+	
+	
+}
+table, tr {
+	background: #D9D9D9;
+	color: #565656;
+	border-color: #565656;
+	border: solid 1px;
+
+}
+td, th {
+	margin-right: 10px;
+	
+	border-color: #565656;
+	border: solid 1px;
+	padding: 15px;}
+.col-sm-4 {
+	margin:auto;
+	display:block;
+}
+
+.otsikko {
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #313339;
+	color: #D1CBCA;
+	font-variant: small-caps;
+	vertical-align: middle;
+	text-align:center;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+	
+}
+
+h1 {
+	vertical-align: middle;	
+	height: auto;
+}
+h2 {
+	background: #677B62;
+	text-align: center;
+	color: #ffffff;
+	padding: 15px;
+	margin-top: 10px;
+	text-transform: uppercase;
+
+	
+
+}
+
+h3 {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+
+}
+
+
+header {
+	background: #9AAB94;
+	margin-top: 10px;
+	text-align: center;
+	color: #BC7042;
+	
+}
+
+
+footer {
+	background: #798F67;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	
+}
+
+.nav-item a {
+	color: #000000;
+	
+}
+
+.nav-link.active {
+	color: #000000;
+	background: white;
+	
+}
